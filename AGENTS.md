@@ -5,15 +5,14 @@ search picture files from specific folder and compare each other then mark and m
 similar pictures to another folder
 
 ## Tech Stack
-- Framework: Next.js 15 (App Router)
-- Kieli: C language
+- Framework: Python 3
+- Kieli: python 
 - Tietokanta: lite SQL
 - Tyylitys: Tailwind CSS + shadcn/ui
-
+- Tuetut kuvatiedostot : Jpeg + jpg
+- Sama kuva voi olla useammin eri nimillä, siirrä  kaikki kopiot 
 ## Koodauskäytännöt
-- Käytä funktionaalisia komponentteja (ei class-komponentteja)
-- Kirjoita tyypit erilliseen types-kansioon
-- Käytä server actions tietokantaoperaatioihin
+- Käytä funktionaalisia komponentteja
 
 ## Testaus
 - Yksikkötestit: Vitest

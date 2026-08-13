@@ -1,0 +1,13 @@
+Kuvavertailukomponentti
+
+Syötteet:
+- source: JPG- ja JPEG-kuvia sisältävä lähdekansio
+- destination: käyttäjän antama kohdekansio kopioille
+- threshold: samankaltaisuusraja välillä 0–100
+
+Toiminta:
+1. Kohdekansio luodaan oikeuksilla 750.
+2. Lähdekansion kuvia verrataan pareittain.
+3. Kustakin kopiojoukosta ensimmäinen kuva jää lähdekansioon.
+4. Muut samalla kuvalla olevat, eri nimiset kopiot siirretään kohdekansioon.
+5. Kohdekansion mahdollinen samanniminen tiedosto keskeyttää siirron ennen muutoksia.

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picture-matcher"
+version = "0.1.0"
+description = "Find and move similar image files safely."
+requires-python = ">=3.11"
+
+[project.scripts]
+picture-matcher = "picture_matcher.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+source = ["picture_matcher"]
